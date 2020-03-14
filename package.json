@@ -1,7 +1,7 @@
 {
-  "name": "corona-gatsby-watcher",
+  "name": "covid-19-watcher",
   "private": true,
-  "description": "",
+  "description": "A simple webapp to watch the evolution of the coronavirus on different countries across the world",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
