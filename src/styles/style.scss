@@ -1,0 +1,68 @@
+$background: #fefcfb;
+$black: #313638;
+$primary: #04a777;
+
+body {
+  background-color: $background;
+  color: $black;
+  height: 100vh;
+}
+
+a {
+  color: $primary;
+  font-weight: bold;
+}
+
+a:hover {
+  color: lighten($color: $primary, $amount: 10);
+}
+
+.app {
+  display: grid;
+  height: 90vh;
+  place-content: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.loading,
+.error {
+  color: $primary;
+  text-align: center;
+}
+
+.country {
+  display: grid;
+  place-items: center;
+}
+
+.country__input {
+  background-color: $background;
+  border: 2.5px solid $black;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  line-height: normal;
+  margin-bottom: 1.75rem;
+  max-width: 19rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.country__input:focus {
+  border: 2.5px solid $primary;
+}
+
+.stats__block__data > span {
+  font-weight: 300;
+  margin-left: 0.45rem;
+}
+
+.footer {
+  bottom: 0;
+  margin: 0 1.75rem;
+  position: absolute;
+  text-align: center;
+}
