@@ -1,5 +1,5 @@
 # COVID-19 Watcher
 
-A simple webapp to watch the evolution of the coronavirus on different countries across the world.
+> Due to changes on the API, this webapp doesn't work anymore. However, I leave the code here in case someone finds it useful or feels like cloning it and using another API
 
-You can try it here: [https://covidwatcher.netlify.com](https://covidwatcher.netlify.com).
+A simple webapp to watch the evolution of the coronavirus on different countries across the world.
